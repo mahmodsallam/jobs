@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Jobs</string>
+    <string name="title_activity_maps">Jobs</string>
+    <string name="title_activity_my_location">Jobs</string>
+    <string-array name="jobsArray">
+
+        <item>كهربائى</item>
+        <item>سباك</item>
+        <item>نقاش</item>
+        <item>مبلط</item>
+        <item>فنى تكييف</item>
+
+    </string-array>
+</resources>

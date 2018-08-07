@@ -1,0 +1,55 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorGray"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:layout_marginTop="50dp"
+        android:id="@+id/iv_who"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/bt_findRadioGroup"
+        android:layout_below="@+id/iv_who"
+        android:background="#c1bdbd"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electrician"
+            android:textSize="24sp"
+            android:id="@+id/rb_findElec"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plumber"
+            android:textSize="24sp"
+            android:id="@+id/rb_findPlumer"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mechanic"
+            android:textSize="24sp"
+            android:id="@+id/rb_findMech" />
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+
+        android:text="Find"
+        android:background="@drawable/button_back"
+        android:id="@+id/bt_findLocation"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/bt_findRadioGroup"
+        />
+</RelativeLayout>

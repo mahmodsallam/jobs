@@ -1,0 +1,106 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorGray"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+        android:background="@drawable/edit_background"
+            android:layout_height="40dp"
+            android:hint="Name"
+            android:singleLine="true"
+            android:id="@+id/et_name"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Salary per hour"
+            android:singleLine="true"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/edit_background"
+            android:id="@+id/et_salary"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Phone"
+            android:singleLine="true"
+            android:background="@drawable/edit_background"
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/et_phone"
+            />
+        <RadioGroup
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RGroup">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electrician"
+                android:textSize="20sp"
+            />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plumber"
+                android:textSize="20sp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mechanic"
+                android:textSize="20sp"
+                 />
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="location is: "
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:id="@+id/tv_location"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find my location"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+android:layout_margin="5dp"
+android:background="@drawable/button_back"
+            android:id="@+id/bt_location"
+            />
+
+        <Button
+            android:background="@drawable/button_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send information"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+            android:id="@+id/bt_insert"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>

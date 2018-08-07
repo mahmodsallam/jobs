@@ -1,0 +1,37 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorGray"
+    android:layout_width="match_parent">
+
+    <EditText
+        android:id="@+id/et_logMail"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_background"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="البريد الالكتررونى"
+        />
+    <EditText
+        android:id="@+id/et_logpass"
+        android:background="@drawable/edit_background"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:hint=" الرقم السرى"
+        />
+
+    <Spinner
+        android:id="@+id/jobsArray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/bt_login"
+        android:background="@drawable/button_back"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دخول"
+        />
+</LinearLayout>

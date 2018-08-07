@@ -1,0 +1,39 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorGray"
+    android:layout_width="match_parent">
+
+    <EditText
+        android:id="@+id/et_regMail"
+        android:background="@drawable/edit_background"
+        android:layout_margin="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="البريد الالكتررونى"
+        />
+    <EditText
+        android:id="@+id/et_regpass"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_background"
+        android:layout_margin="15dp"
+        android:hint=" الرقم السرى"
+        />
+
+    <Spinner
+        android:id="@+id/jobsArray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_margin="15dp"
+        android:background="@drawable/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تسجيل"
+        />
+</LinearLayout>
